@@ -1,6 +1,6 @@
 POC CDC - doc
 
-The documentation for this: confluent and debezium oficial pages + https://blog.clairvoyantsoft.com/mysql-cdc-with-apache-kafka-and-debezium-3d45c00762e4
+The documentation for this: confluent and debezium official pages + https://blog.clairvoyantsoft.com/mysql-cdc-with-apache-kafka-and-debezium-3d45c00762e4
 For this to work the os must have: curl, docker and docker-compose. I created a database test with a table people and 4 insert statements. The script_consumer will show the change in the database. For more tests we can use the script_mysql utility that connects to mysql and we can do more operations.
 After that there are 4 utilities here to test:
 1) script_compose.sh -> starts the setup
